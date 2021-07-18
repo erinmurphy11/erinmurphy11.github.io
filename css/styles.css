@@ -169,16 +169,14 @@ h2 {
 
     .navbar {
         padding-top: 2vh;
-        padding-left: 5%;
-        padding-right: 75%;
-        
-
+        margin-left: 2vh;
+        padding-right: 70%;
+    
     }
 
     .navbar a {
         font-size: 5vw;
         align-items: left;
-        padding-left: 5%;
         float: none;
         text-align: left;
     }
@@ -219,7 +217,7 @@ h2 {
         background-position: 50%;
         background-size: 80% auto;
         background-color: black;
-        background-position: 50% 20%;
+        background-position: 50% 40%;
     }
 
     .col-4 {
