@@ -21,8 +21,9 @@ img {
 
 h1 {
     position: relative;
-    top: 62%;
-    font-size: 5vw;
+    z-index: -1;
+    top: 58%;
+    font-size: 6vw;
     padding-left:12%;
 }
 
@@ -91,6 +92,63 @@ h2 {
     height: 50%;
     width: 100%;
     background-color: black;
+}
+
+.col-3 {
+    height: 100%;
+    width: 33.33%;
+    background-image: url("buttons/AboutLink.png");
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+
+.col-3:hover {
+    background-image: url("buttons/AboutHover.png");
+}
+
+#aboutlink {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.col-4 {
+    height: 100%;
+    width: 33.33%;
+    background-image: url("buttons/PapersLink.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+
+.col-4:hover {
+    background-image: url("buttons/PapersHover.png");
+}
+
+#paperslink {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.col-5 {
+    height: 100%;
+    width: 33.33%;
+    background-image: url("buttons/ResumeLink.png");
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+
+.col-5:hover {
+    background-image: url("buttons/ResumeHover.png");
+}
+
+#resumelink {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 .row3 {
