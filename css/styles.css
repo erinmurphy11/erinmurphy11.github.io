@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     margin:0px;
     padding: 0px;
-    overflow: x-hidden;
+    overflow: hidden;
     font-family: "Bahnschrift", Helvetica, sans-serif;
     letter-spacing: 1.5px;
 }
