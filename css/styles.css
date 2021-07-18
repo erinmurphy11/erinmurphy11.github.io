@@ -167,8 +167,10 @@ h2 {
 
 @media screen and (max-width: 782px) {
 
-    .navbar a {
-        float: left;
+    .navbar {
+        padding-top: 2vh;
+        padding-left: 10%;
+        padding-right: 10%;
         font-size: 14px;
     }
     h1 {
@@ -183,7 +185,8 @@ h2 {
     }
     .col-2 {
         padding-top: 15%;
-        padding-left: 25%;
+        float: none;
+        padding-left: 50%;
         padding-bottom: 0;
         height: 100%;
         width: 100%;
@@ -214,6 +217,33 @@ h2 {
         width: 100vw;
         height: 60vh;
         background-position: 50%;
+        background-size: 80% auto;
+        background-color: black;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-3 {
+        width: 100vw;
+        height: 60vh;
+        background-position: 50% 5%;
+        background-size: 80% auto;
+        background-color: black;
+    }
+
+    .col-4 {
+        width: 100vw;
+        height: 60vh;
+        background-position: 50% 5%;
+        background-size: 80% auto;
+        background-color: black;
+    }
+
+    .col-5 {
+        width: 100vw;
+        height: 60vh;
+        background-position: 5%;
         background-size: 80% auto;
         background-color: black;
     }
