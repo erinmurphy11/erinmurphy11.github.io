@@ -168,6 +168,8 @@ h2 {
 @media screen and (max-width: 782px) {
 
     .navbar {
+        text-align: center;
+        display: inline-block;
         padding-top: 2vh;
         padding-left: 0;
         padding-right: 0;
