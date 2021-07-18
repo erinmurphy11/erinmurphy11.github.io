@@ -178,6 +178,7 @@ h2 {
     .navbar a {
         font-size: 5vw;
         align-items: left;
+        padding-left: 5%;
         float: none;
         text-align: left;
     }
@@ -194,10 +195,10 @@ h2 {
     }
     .col-2 {
         position: absolute;
-        margin-left: 30%;
+        margin-left: 32%;
         height: 100%;
         width:100%;
-        padding-top: 36%;
+        padding-top: 38%;
         float: none;
 
     }
