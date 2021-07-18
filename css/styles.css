@@ -184,16 +184,22 @@ h2 {
         color: white;
     }
     .col-2 {
+        height: 100%;
+        width:100%;
         padding-top: 15%;
         float: none;
-        padding-left: 50%;
+        padding-left: 30%;
         padding-bottom: 0;
-        height: 100%;
+
     }
 
     .row1 {
         width:100%;
         padding-top: 0;
+    }
+
+    .row2{
+        width: 0;
     }
 
     .col-3 {
