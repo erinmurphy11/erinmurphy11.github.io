@@ -225,6 +225,7 @@ h2 {
     .col-3 {
         width: 100vw;
         height: 40vh;
+        margin-top: 4vh;
         background-position: 50%;
         background-size: 50% auto;
         background-color: black;
@@ -261,6 +262,7 @@ h2 {
     }
 
     .col-3 {
+        margin-top: 4vh;
         background-size: 70% auto;
     }
 
