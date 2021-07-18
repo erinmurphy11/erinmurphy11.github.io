@@ -171,8 +171,14 @@ h2 {
         padding-top: 2vh;
         padding-left: 0;
         padding-right: 0;
-        font-size: 14px;
+
     }
+
+    .navbar a {
+        font-size: 4.5vw;
+        padding-left: 3vw;
+    }
+
     h1 {
         font-size: 7vw;
      }
@@ -184,12 +190,12 @@ h2 {
         color: white;
     }
     .col-2 {
+        position: absolute;
+        margin-left: 23%;
         height: 100%;
         width:100%;
         padding-top: 15%;
         float: none;
-        padding-left: 30%;
-        padding-bottom: 0;
 
     }
 
