@@ -165,10 +165,11 @@ h2 {
 
 /*Mobile phone view*/
 
-@media screen and (max-width: 782px) {
+@media screen and (max-width: 850px) {
 
     .navbar {
-        padding-top: 2vh;
+        position: absolute;
+        padding-top: 3vh;
         margin-left: 2vh;
         padding-right: 70%;
     
@@ -193,10 +194,10 @@ h2 {
     }
     .col-2 {
         position: absolute;
-        margin-left: 32%;
+        margin-left: 15%;
         height: 100%;
         width:100%;
-        padding-top: 38%;
+        padding-top: 30%;
         float: none;
 
     }
@@ -217,7 +218,7 @@ h2 {
         background-position: 50%;
         background-size: 80% auto;
         background-color: black;
-        background-position: 50% 40%;
+        background-position: 50% 10%;
     }
 
     .col-4 {
@@ -239,3 +240,8 @@ h2 {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .col-2 {
+        padding-top: 40%;
+    }
+}
