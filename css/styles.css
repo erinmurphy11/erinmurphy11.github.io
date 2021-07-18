@@ -20,10 +20,14 @@ img {
 /* Body */
 
 h1 {
-    position: fixed;
-    bottom: 10%;
+    position: relative;
+    top: 62%;
     font-size: 5vw;
-    padding-left:7%;
+    padding-left:12%;
+}
+
+h2 {
+    color: white;
 }
 
 /* Navigation bar */
@@ -42,21 +46,37 @@ h1 {
     display: block;
     color: black;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 1.5%;
     padding-left: 2%;
-    padding-bottom: 0;
+    padding-bottom: 1%;
     padding-right: 1%;
     text-decoration: none;
 }
 
-/* Navigation hover */
-.navbar a:hover {
-    color: maroon;
+.navbar a:after {
+    padding: 2px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar a:hover::after{
+    padding: 0px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.row1 {
+    height: 100%;
 }
 
 [class*="col-"] {
     float: left;
-    padding-top: 3%;  
+    padding-top: 4%;  
 }
 
 .col-1 {
@@ -66,13 +86,20 @@ h1 {
 .col-2 {
     height: 100%;
     width: 50%;}
-.col-3 {width: 100%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
+.row2 {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+.row3 {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
