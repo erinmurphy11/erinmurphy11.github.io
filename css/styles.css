@@ -171,12 +171,14 @@ h2 {
         padding-top: 2vh;
         padding-left: 0;
         padding-right: 0;
+        z-index:100;
 
     }
 
     .navbar a {
         font-size: 4.5vw;
         padding-left: 3vw;
+        z-index:100;
     }
 
     h1 {
@@ -196,7 +198,6 @@ h2 {
         width:100%;
         padding-top: 15%;
         float: none;
-        z-index:-1;
 
     }
 
