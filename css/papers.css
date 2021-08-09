@@ -17,13 +17,21 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
 }
 
 a {
     font-size: 3vw;
     color: black;
     text-decoration: none;
+}
+
+h2, p {
+    font-size: 1.3vw;
+}
+
+p {
+    font-weight: lighter;
 }
 
 /* Navigation bar */
@@ -83,8 +91,9 @@ a {
         background-color: black;
         color: white;
         position: absolute;
-        padding-top: 3vh;
+        padding-top: 4vh;
         margin-right: 2vh;
+        padding-bottom: 4vh;
         padding-right: 60%;
     
     }
@@ -92,7 +101,7 @@ a {
     .navbar a {
         background-color: black;
         color: white;
-        font-size: 5vw;
+        font-size: 6vw;
         margin-left: 2vw;
         align-items: left;
         float: none;
@@ -100,7 +109,7 @@ a {
     }
 
     .papers-row1 {
-        padding-top: 35%;
+        padding-top: 45%;
     }
 
     h1 {
@@ -108,14 +117,14 @@ a {
     }
 
     a {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     p {
-        font-size: 2.5vw;
+        font-size: 4.5vw;
     }
 }
