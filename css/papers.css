@@ -1,0 +1,121 @@
+/* Entire page */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: "Bahnschrift", Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+a {
+    font-size: 3vw;
+    color: black;
+    text-decoration: none;
+}
+
+/* Navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Navigation Links */
+.navbar a {
+    font-size: 1.5vw;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+}
+
+.navbar a:after {
+    padding: 2px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar a:hover::after{
+    padding: 0px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.papers-row1 {
+    height: 100%;
+    width: 100%;
+    padding-top: 6vh;
+    padding-left: 4vw;
+    padding-right: 6vw;
+    float: left;
+}
+
+/* Mobile Phone/Tablet View */
+
+@media screen and (max-width: 850px) {
+
+    .navbar {
+        background-color: black;
+        color: white;
+        position: absolute;
+        padding-top: 3vh;
+        margin-right: 2vh;
+        padding-right: 60%;
+    
+    }
+
+    .navbar a {
+        background-color: black;
+        color: white;
+        font-size: 5vw;
+        margin-left: 2vw;
+        align-items: left;
+        float: none;
+        text-align: left;
+    }
+
+    .papers-row1 {
+        padding-top: 35%;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    a {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+}

@@ -79,7 +79,7 @@ h2 {
     border-bottom: 2px solid black;
 }
 
-.row1 {
+.home-row1 {
     height: 100%;
     width: 100%;
     left: 0;
@@ -97,7 +97,7 @@ h2 {
     height: 100%;
     width: 50%;}
 
-.row2 {
+.home-row2 {
     height: 50%;
     width: 100%;
     left: 0;
@@ -161,7 +161,7 @@ h2 {
     width: 100%;
 }
 
-.row3 {
+.home-row3 {
     height: 100%;
     width: 100%;
     left: 0;
@@ -177,7 +177,7 @@ h2 {
 
 @media screen and (max-width: 1300px)
 {
-    .row2{
+    .home-row2{
         width:100%;
         height: 30vh;
     }
@@ -222,12 +222,12 @@ h2 {
 
     }
 
-    .row1 {
+    .home-row1 {
         width:100%;
         padding-top: 0;
     }
 
-    .row2{
+    .home-row2{
         width:100%;
         height: 120vh;
         padding-bottom: 1vh;
@@ -259,7 +259,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
-    .row2{
+    .home-row2{
         width:100%;
         height: 120vh;
         padding-bottom: 1vh;
