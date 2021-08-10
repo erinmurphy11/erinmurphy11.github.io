@@ -162,6 +162,7 @@ h2 {
 }
 
 .home-row3 {
+    display: none;
     height: 100%;
     width: 100%;
     left: 0;
@@ -196,7 +197,7 @@ h2 {
     }
 
     .navbar a {
-        font-size: 5vw;
+        font-size: 6vw;
         align-items: left;
         float: none;
         text-align: left;
