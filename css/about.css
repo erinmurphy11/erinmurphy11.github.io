@@ -45,6 +45,12 @@ img {
     margin-bottom: 20%;
   }
 
+.hidden1 {
+    width: 100%;
+    height: 70vh;
+    display: none;
+}
+
 .hidden {
     width: 100%;
     height: 40%;
@@ -160,7 +166,7 @@ img {
     }
 
     .about-row2 {
-        padding-top: 0px;
+        padding-top: 3vh;
         padding-left: 5vw;
         height: 30%;
     }
@@ -168,7 +174,7 @@ img {
     .about-row1 {
         padding-left: 5vw;
         padding-top: 5%;
-        height: 190%;
+        height: 175%;
     }
 
     .about-row3 {
@@ -202,7 +208,7 @@ img {
         font-size: 4.5vw;
     }
 
-    .hidden {
+    .hidden, .hidden1 {
         display: block;
     }
 }
